@@ -6,7 +6,8 @@ import "./index.css";
 import axios from "axios";
 import Instructions from "./components/Instructions";
 
-const apiUrl = "http://localhost:5000/tasks";
+const apiUrl =
+  "https://taskmate-ywct.onrender.com/tasks" || "http://localhost:5000/tasks";
 
 function App() {
   const currentYear = new Date().getFullYear();
