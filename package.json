@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.mjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "server": "json-server -p 5000 --watch db.json --host 127.0.0.1",
